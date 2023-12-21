@@ -1,20 +1,53 @@
-# Namaste React (Ep1 - Intution)
+# Namaste React (Ep2 - Ignite App)
 
-
-## what is CDN ?
+### package.json
 ```
-A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
-```
-
-## what is crossorigin ?
-```
-The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
-Web pages often make requests to load resources on other servers. Here is where CORS comes in.
-A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+    version with caret and tilde
 ```
 
-## Quick Notes
+
+### package-lock.json 
+```
+    will break individual packages with exact version in detail 
+```
+
+
+### node_modules
+```
+    breaking node_modules (transitive dependency) our project has dependency -> that dependencies has dependencies which might have dependencies
 
 ```
-reactDOM will replace content in root, not append.
+
+### Quick Notes
+```
+    - if you have package-lock.json and package.json we recreact all the node_modules even if we delete.
+    - cdn is not a good way for the project
+    - the cdn links are static and wont update 
+```
+
+npm vs npx
+```
+    NPM is a package manager used to install, update or remove packages and dependencies your project requires. NPX is an NPM package used to execute any package on the NPM registry directly without installing it. 
+```
+
+
+
+
+## Parcel
+```
+- Dev Build
+- local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in c++
+- Caching - Faster Builds
+- Image Optimization
+- Minification
+- Bundling
+- Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling (support older browsers)
+- Diagnostics
+- Error Handling
+- HTTPs
 ```

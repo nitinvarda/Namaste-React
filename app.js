@@ -1,6 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client'
 
 const heading = [
-    React.createElement("h1",{id:"heading"},"manual h1 creation react CDN"),
+    React.createElement("h1",{id:"heading"},"This is React"),
     React.createElement("h2",{id:"heading"},"manual h2 creation react CDN"),
 ];
 const child = React.createElement("div",{id:"child"},heading);
