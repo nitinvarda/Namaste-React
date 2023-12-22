@@ -4,6 +4,7 @@
   "description": "This is Akshay Saini's version of React",
   "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {

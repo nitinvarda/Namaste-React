@@ -1,53 +1,33 @@
-# Namaste React (Ep2 - Ignite App)
+# Namaste React (Ep3 - Laying Foundation)
 
-### package.json
+### Babel
 ```
-    version with caret and tilde
-```
-
-
-### package-lock.json 
-```
-    will break individual packages with exact version in detail 
-```
-
-
-### node_modules
-```
-    breaking node_modules (transitive dependency) our project has dependency -> that dependencies has dependencies which might have dependencies
-
-```
-
-### Quick Notes
-```
-    - if you have package-lock.json and package.json we recreact all the node_modules even if we delete.
-    - cdn is not a good way for the project
-    - the cdn links are static and wont update 
-```
-
-npm vs npx
-```
-    NPM is a package manager used to install, update or remove packages and dependencies your project requires. NPX is an NPM package used to execute any package on the NPM registry directly without installing it. 
+    is JS compiler
 ```
 
 
 
+### JSX 
+```
+    JSX is not HTML, what ever we write in JSX is an Object will be converted to HTML later
 
-## Parcel
+    Major differences
+    HTML        || JSX
+    class       || className
+    tabindex    || tabIndex
+
+
+
+    it santizes data before running it in browser
 ```
-- Dev Build
-- local Server
-- HMR = Hot Module Replacement
-- File Watching Algorithm - written in c++
-- Caching - Faster Builds
-- Image Optimization
-- Minification
-- Bundling
-- Compress
-- Consistent Hashing
-- Code Splitting
-- Differential Bundling (support older browsers)
-- Diagnostics
-- Error Handling
-- HTTPs
+
+
+
+### React Components
 ```
+Class Based & Functional Components
+
+- Functional Components
+-- a javascript funcitons returns JSX element
+```
+
